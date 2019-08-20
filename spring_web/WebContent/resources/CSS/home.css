@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+#wrapper{font-family:Verdana, Geneva, Tahoma, sans-serif;}
+.container{width: 90%;
+margin:0 auto;
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background:#0a930a;
+    color:#fff;
+    margin-top: -15px;
+}
+#subheader p{
+    float: left;
+    margin-top: 7px;
+    background:#1aaa1a;
+    color:white;
+}
+#subheader a{
+    float: right;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 30px;
+
+}
+#mainheader{
+    width:100%;
+    height:150px;
+    background:#1aaa1a;
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+    color:black;
+}
+#iist{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: cursive;
+    color:black;
+}
+#search{
+    width:750px;
+float: left;
+padding:20px;
+margin-left: 50px;
+}
+.search-area{
+width:700px;
+height:50px;
+background:#fff;
+border:none;
+border-radius: 10px;
+float: left;
+padding-left:15px;
+}
+.search-btn{
+    width:100px;
+    height:50px;
+    border:none;
+    border-radius: 10px;
+    color:#fff;
+    background:brown;
+    margin-left: -100px;
+}
+#user-menu{
+    width:300px;
+    float: right;
+    margin-top: 20px;
+}
+#user-menu li{
+    float: left;
+    width:140px;
+    text-align: center;
+    list-style:none;
+    font-size: 25px;
+    border-left: 1px solid black;
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color:#fff;
+}
+#navigation {
+    width:100%;
+    height:30px;
+    background:#1aaa1a;
+    float: left;
+    box-shadow: 10px 14px 50px 2px #1aaa1a;
+}
+nav{
+    width:1400px;
+    margin:0 auto;
+}
+nav a{
+    margin:35px;
+    color:#fff;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 20px;
+    color:black;
+    transition: all .7s;
+}
